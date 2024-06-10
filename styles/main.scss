@@ -3,8 +3,145 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(14, 8, 8);
+  color: black;
   text-align: center;
   margin-top: 100px;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: "Oregano", cursive !important;
+  color: white;
+  font-weight: 900;
+  font-size: 2em;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+    0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;  
+  }
+
+.cart-items {
+  height: 300px;
+  overflow: scroll;
+}
+
+.grey-box {
+  float: left;
+  margin: 2px;
+  width: 200px;
+  height: 200px;
+}
+
+#cart-thumb img {
+  height: 100px;
+}
+
+.logout {
+  margin: 0 20px;
+  font-size: 25px;
+  color: white;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-content: center;  
+
+#form-container {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    color: white;
+
+    #formModal {
+      color: black;
+   }
+ }
+
+#store {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+
+    .card {
+      width: 300px;
+      margin: 5px;
+
+      .sale-badge {
+        font-size: 1em;
+        background-color: blue;
+      }
+      .fav-badge{
+        font-size: 1em;
+        background-color: #03A9F4;
+      }
+    }
+
+    .table {
+      margin: 10px;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+#app{
+  background-color: black;
+}
+.card-definition{
+  height: 200px;
+
+}
+
+
+#def-txt{
+  display: block;
+}
+
+.card-language{
+  color: #F50057;
+}
+.card{
+  backdrop-filter: blur(0px); background-color: rgba(255, 255, 255, 0.705); border-radius: 20px; box-shadow: 15px 15px 68px 0px rgba(236, 198, 28, 0.5), inset -0px -0px 16px 0px rgba(236, 198, 28, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+.card-header{
+    text-decoration: none;
+    color: black;
+    font-family:Rockwell;
+    animation:ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+  }
+
+#filter-btn{
+  margin-top: 10px;
+}
+
+#text-style{
+  font-size: 5rem;
+  font-weight: 200;
+  font-style: italic;
+  color:#03A9F4;
+  padding: 2rem 6rem 5.5rem;
+  border: 0.4rem solid #F50057;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  animation: flicker 2.5s infinite alternate;     
+}
+
+#text-styles{
+  margin-top:10%;
+  font-size: 5rem;
+  font-weight: 500;
+  font-style: italic;
+  color:#03A9F4;
+  padding: 2rem 6rem 5.5rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  animation: flicker 2.5s infinite alternate;     
 }
